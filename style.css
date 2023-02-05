@@ -145,6 +145,15 @@ section{
     border-radius: 1.7em;
     margin-top: 10px;
 }
+.info a:hover{
+    background-color: var(--bright-red);
+    color: #fefefe;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 1.7em;
+    margin-top: 10px;
+}
 
 @media (min-width: 320px) and (max-width: 600px) {
     .about{
@@ -187,7 +196,14 @@ section{
     place-items: center;
 }
 .card a{
-    background-color: #28282B;
+    background-color: var(--black);
+    padding: 7px;
+    color: #fefefe;
+    border-radius:1.7em;;
+    font-size: 0.7rem;
+}
+.card a:hover{
+    background-color: var(--bright-red);
     padding: 7px;
     color: #fefefe;
     border-radius:1.7em;;
@@ -306,6 +322,14 @@ section{
     width: 20%;
     font-size: 0.9rem;
     background-color: var(--red);
+    border-style: none;
+    color: #e0e1dd;
+}
+.track button:hover{
+    height: 50px;
+    width: 20%;
+    font-size: 0.9rem;
+    background-color: var(--bright-red);
     border-style: none;
     color: #e0e1dd;
 }
